@@ -1,0 +1,26 @@
+{
+  "name": "elomia",
+  "version": "1.0.0",
+  "description": "test task for elomia",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.ts",
+    "test": "test",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OleksandrTsyhankov/elomia.git"
+  },
+  "author": "Oleksandr Tsyhankov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OleksandrTsyhankov/elomia/issues"
+  },
+  "homepage": "https://github.com/OleksandrTsyhankov/elomia#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}
